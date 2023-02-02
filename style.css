@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*** Header Section ***/
+
+header {
+    background-color: #24371f;
+    color: white;
+    height: 48px;
+    padding: 10px 30px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    flex: 1;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 26px;
+}
+
+header li a {
+    font-size: 14px;
+}
+
+
+
+/*** End of Header Section ***/
+
+
+
+/*** Hero Section ***/
+
+.hero {
+    background-color: #24371f;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 100px 30px;
+}
+
+.hero-content {
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+.sign-up-btn {
+    background-color: #61d41e;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+.hero-image img {
+    max-width: 600px;
+    height: auto;
+}
+
+/*** End of Hero Section ***/
+
+
+
+/*** Info Section ***/
+
+.info {
+    padding: 120px 30px;
+}
+
+.info h3 {
+    text-align: center;
+    margin-bottom: 36px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-section {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+
+.card {
+    width: 210px;
+    max-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-image img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+
+    border: 3px solid #61d41e;
+    border-radius: 10px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+/*** End of Info Section ***/
+
+
+
+/*** Quote Section ***/
+
+.quote {
+    padding: 120px 30px;
+    background-color: rgb(253, 246, 233);
+}
+
+.quote > div {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.quote p {
+    color: rgb(65, 65, 65);
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.quote .writer {
+    text-align: end;
+    font-weight: bold;
+}
+
+/*** End of Quote Section ***/
+
+
+
+/*** Sign Up Section ***/
+
+.sign-up {
+    padding: 120px 30px;
+}
+
+.action {
+    width: 75%;
+    background-color: #61d41e;
+    color: white;
+    border-radius: 12px;
+
+    margin: 0 auto;
+    padding: 36px 64px;
+
+    display: flex;
+}
+
+.action-content {
+    flex: 2;
+}
+
+.action-title {
+    font-size: 22px;
+}
+
+.action-button {
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/*** End of Sign Up Section ***/
+
+
+
+/*** Footer Section ***/
+
+footer {
+    background-color: #24371f;
+    height: 62px;
+    font-size: 22px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*** End of Footer Section ***/
